@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  'Hello at ' + Time.now.to_s
+  'Hello from Ruby ' + RUBY_VERSION + ' at ' + Time.now.to_s
 end
 
 
